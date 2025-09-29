@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>廣告</title>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        .ad-container {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .ad-container.a000 {
+            background-image: url('../images/000.jpg');
+            background-size: contain;
+            background-color: black;
+        }   
+        .ad-container.a001 {
+            background-image: url('../images/001.jpg');
+        }      
+        .ad-container.a002 {
+            background-image: url('../images/002.jpg');
+        }  
+        .ad-container.a003 {
+            background-image: url('../images/003.jpg');
+        }    
+        .ad-container.a001 p {
+            font-size: 3em;
+            color: #ff3131;
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            width: 50vw;
+            padding-left: 40vw;
+            padding-top: 8vh;
+        }     
+        .ad-container.a002 p {
+            font-size: 3em;
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            width: 50vw;
+            padding-left: 24vw;
+            padding-top: 8vh;
+        }
+        .ad-container.a003 p {
+            font-size: 3em;
+            color: white;
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            width: 64vw;
+            padding-left: 18vw;
+            padding-top: 8vh;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="ad-container a001"><!-- 健身房廣告 -->
+        <p>燃燒卡路里、雕塑好身材！專業教練陪伴，設備齊全，健身從今天開始。</p>
+    </div>
+    <div class="ad-container a002"><!-- 甜點廣告 -->
+        <p>香甜草莓搭配酥脆塔皮，入口酸甜交織，滿滿幸福感受，一口即愛上。</p>
+    </div>
+    <div class="ad-container a003"><!-- 幼兒園廣告 -->
+        <p>快樂學習、安心成長！專業師資與溫馨環境，啟發孩子潛能，給予最美好的童年起點。</p>
+    </div>
+    <div class="ad-container a000"><!-- 召募會員廣告 -->
+        <p></p>
+    </div>
+</body>
+</html>
